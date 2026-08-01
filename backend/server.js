@@ -53,27 +53,12 @@ if (process.env.NODE_ENV === 'production') {
 }
 
 // Production-ready dynamic CORS configuration
-const allowedOrigins = [
-  process.env.FRONTEND_URL,
-  'https://your-app.vercel.app',
-  'http://localhost:5173'
-].filter(Boolean); // Filter out undefined if FRONTEND_URL is not set
-
 app.use(
-  cors({
-    origin: (origin, callback) => {
-      // Allow requests with no origin (like mobile apps, postman, curl, or same-origin)
-      // Also allow any local development server port (e.g., localhost:5174)
-      if (!origin || allowedOrigins.includes(origin) || /^http:\/\/localhost:\d+$/.test(origin)) {
-        callback(null, true);
-      } else {
-        callback(new Error('Not allowed by CORS'));
-      }
-    },
-    credentials: true
-  })
+cors({
+origin:true,
+credentials:true,
+})
 );
-
 // Body parser configuration with size limits to prevent body-parsing flood attacks
 app.use(express.json({ limit: '10kb' }));
 app.use(express.urlencoded({ extended: true, limit: '10kb' }));
