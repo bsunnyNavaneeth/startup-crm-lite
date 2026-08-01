@@ -1,7 +1,7 @@
 # Startup CRM Lite
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Roopasree995/startup-crmlite/main/public/logo.png" alt="Startup CRM Lite Logo" width="150" height="150" onerror="this.src='https://placehold.co/150x150/3b82f6/ffffff?text=CRM+Lite'"/>
+  <img src="https://raw.githubusercontent.com/bsunnynavaneeth/startup-crmlite/main/public/logo.png" alt="Startup CRM Lite Logo" width="150" height="150" onerror="this.src='https://placehold.co/150x150/3b82f6/ffffff?text=CRM+Lite'"/>
 </p>
 
 <p align="center">
@@ -713,8 +713,8 @@ Distributed under the ISC License. See [LICENSE](LICENSE) for more information.
 ---
 
 ## 56. Contact Information
-* **Project Maintainer**: Roopasree995
-* **GitHub Repository**: [Roopasree995/startup-crmlite](https://github.com/Roopasree995/startup-crmlite)
+* **Project Maintainer**: bsunnynavaneeth
+* **GitHub Repository**: [bsunnynavaneeth/startup-crm-lite]
 * **Email Support**: support@example.com
 
 ---
